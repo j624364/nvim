@@ -32,7 +32,7 @@ filetype plugin on
 packadd termdebug
 let g:termdebug_wide = 100
 
-colorscheme gruvbox
+" colorscheme gruvbox
 let v:warningmsg=""
 
 let g:slime_target = "neovim"
