@@ -1,7 +1,7 @@
 set nocompatible
 
 set encoding=utf-8
-set clipboard=unnamedplus
+set clipboard^=unnamed,unnamedplus
 
 set history=4096
 set undolevels=2048
