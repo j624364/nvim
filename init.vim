@@ -6,6 +6,7 @@ let g:python3_host_prog="/usr/bin/python3"
 
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/minimal.vim
+source ~/.config/nvim/gui.vim
 
 command! ReloadVim :source ~/.config/nvim/init.vim
 
