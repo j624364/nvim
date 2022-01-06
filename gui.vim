@@ -10,4 +10,6 @@ set guioptions-=L " remove left scroll bar
 set guifont=Hack:h7
 
 let g:neovide_cursor_animation_length=0.01
+let g:neovide_refresh_rate=60
+let g:neovide_transparency=1.0
 
