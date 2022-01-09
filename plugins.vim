@@ -19,6 +19,7 @@ Plugin 'rdnetto/YCM-Generator'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'bfrg/vim-cpp-modern'
 Plugin 'godlygeek/tabular'
+Plugin 'mhinz/vim-startify'
 " Plugin 'sheerun/vim-polyglot'
 " Plugin 'andrewmacp/llvm.vim'
 " Plugin 'beyondmarc/glsl.vim'
@@ -89,4 +90,10 @@ endfunction
 command! RefreshFiles :call RefreshFiles()
 
 command! -nargs=1 Ren :YcmCompleter RefactorRename <args>
+
+let g:startify_bookmarks = [ {'c': '~/.config'}, '~/.config/nvim', {'r': '~/Repos'}, '~/Repos', '~/Repos/NEAWorldGenerator', '~/Repos/eawm', '~/Repos/slisp' ]
+let g:startify_change_to_dir = 0
+let g:startify_change_to_vcs_root = 1
+let g:startify_fortune_use_unicode = 1
+let g:startify_padding_left = 8
 
