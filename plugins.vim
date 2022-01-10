@@ -9,6 +9,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'yorickpeterse/happy_hacking.vim'
 Plugin 'AlessandroYorba/Alduin'
 Plugin 'morhetz/gruvbox'
+Plugin 'arcticicestudio/nord-vim'
 Plugin 'preservim/nerdtree'
 " Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -34,7 +35,8 @@ filetype plugin on
 packadd termdebug
 let g:termdebug_wide = 100
 
-colorscheme gruvbox
+colorscheme nord
+
 let v:warningmsg=""
 
 let g:slime_target = "neovim"
