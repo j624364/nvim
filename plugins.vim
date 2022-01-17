@@ -35,8 +35,6 @@ filetype plugin on
 packadd termdebug
 let g:termdebug_wide = 100
 
-colorscheme nord
-
 let v:warningmsg=""
 
 let g:slime_target = "neovim"
