@@ -97,3 +97,8 @@ let g:startify_change_to_vcs_root = 1
 let g:startify_fortune_use_unicode = 1
 let g:startify_padding_left = 8
 
+let g:startify_custom_header_quotes = [
+			\ [ 'no' ],
+			\ [ 'yes' ],
+			\ ]
+
