@@ -63,3 +63,5 @@ au BufWinLeave * call clearmatches()
 
 set shell=/bin/fish
 
+source ~/.config/nvim/editing.vim
+
