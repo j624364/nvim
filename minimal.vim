@@ -32,6 +32,11 @@ inoremap <C-w> <ESC><C-w>
 nnoremap ,cv "+pa<ESC>
 vnoremap ,cp "+y
 
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+
 set so=5
 
 set noautoindent
@@ -53,13 +58,14 @@ function! Replace()
 endfunction
 
 command! Replace :call Replace()<CR>
+command! Retab :exe("normal gg=G")
 
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
-au BufWinEnter * match ExtraWhitespace /\s\+$/
-au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-au InsertLeave * match ExtraWhitespace /\s\+$/
-au BufWinLeave * call clearmatches()
+" highlight ExtraWhitespace ctermbg=red guibg=red
+" match ExtraWhitespace /\s\+$/
+" au BufWinEnter * match ExtraWhitespace /\s\+$/
+" au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+" au InsertLeave * match ExtraWhitespace /\s\+$/
+" au BufWinLeave * call clearmatches()
 
 set shell=/bin/fish
 
