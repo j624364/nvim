@@ -102,3 +102,5 @@ let g:startify_custom_header_quotes = [
 			\ [ 'yes' ],
 			\ ]
 
+set shell=/bin/fish
+

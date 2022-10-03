@@ -67,7 +67,5 @@ command! Retab :exe("normal gg=G")
 " au InsertLeave * match ExtraWhitespace /\s\+$/
 " au BufWinLeave * call clearmatches()
 
-set shell=/bin/fish
-
 source ~/.config/nvim/editing.vim
 
