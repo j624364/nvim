@@ -75,8 +75,9 @@ nnoremap ,decl :YcmCompleter GoToDeclaration<CR>
 nnoremap ,incl :YcmCompleter GoToInclude<CR>
 nnoremap ,ren :YcmCompleter RefactorRename
 
-nnoremap <C-Y> :Step<CR>
-nnoremap <C-U> :Over<CR>
+" For termdebug
+" nnoremap <C-Y> :Step<CR>
+" nnoremap <C-U> :Over<CR>
 
 inoremap <Tab> <C-v><Tab>
 
