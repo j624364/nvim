@@ -10,7 +10,7 @@ Plugin 'yorickpeterse/happy_hacking.vim'
 Plugin 'AlessandroYorba/Alduin'
 Plugin 'morhetz/gruvbox'
 Plugin 'arcticicestudio/nord-vim'
-Plugin 'Mofiqul/dracula'
+Plugin 'Mofiqul/dracula.nvim'
 Plugin 'preservim/nerdtree'
 " Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -104,4 +104,6 @@ let g:startify_custom_header_quotes = [
 			\ ]
 
 set shell=/bin/fish
+
+colorscheme dracula
 
