@@ -582,7 +582,6 @@ require("lazy").setup({
 				cmake = {},
 				docker_compose_language_service = {},
 				elixirls = {},
-				-- gleam = {},
 				gopls = {},
 				hls = {},
 				html = {},
@@ -616,6 +615,8 @@ require("lazy").setup({
 					},
 				},
 			}
+
+			require("lspconfig").gleam.setup({})
 
 			-- Ensure the servers and tools above are installed
 			--  To check the current status of installed tools and/or manually install
