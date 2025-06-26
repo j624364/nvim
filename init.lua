@@ -582,7 +582,7 @@ require("lazy").setup({
 				cmake = {},
 				docker_compose_language_service = {},
 				elixirls = {},
-				gopls = {},
+				--gopls = {},
 				--hls = {},
 				html = {},
 				jsonls = {},
